@@ -2,6 +2,10 @@ source "https://rubygems.org"
 
 ruby "3.1.2"
 
+gem "simple_form"
+
+gem "faker"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.3"
 
@@ -25,6 +29,7 @@ gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
